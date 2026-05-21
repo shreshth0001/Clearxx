@@ -3,11 +3,10 @@
 > **Turn complex clinical notes into plain English, instantly.**  
 > Built as a portfolio project for a clinical product manager role.
 
-![ClearRx Screenshot](https://via.placeholder.com/1200x600/0a1628/00c48c?text=ClearRx+—+Medical+Jargon+Simplifier)
 
 ---
 
-## 🩺 What It Does
+## What It Does
 
 Patients leave doctor appointments confused. Discharge summaries are written at a **Grade 16 reading level** — the average patient reads at **Grade 6**. ClearRx bridges that gap:
 
@@ -17,20 +16,20 @@ Patients leave doctor appointments confused. Discharge summaries are written at 
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Details |
 |---|---|
-| 🤖 AI Translation | Powered by Claude Sonnet via Anthropic API |
-| 📊 Structured Output | JSON response with summary, key points, actions, glossary |
-| 🗄 Query Log | localStorage-backed analytics log with SQL query display |
-| 📋 Readability Score | Shows grade-level improvement for each translation |
-| 📖 Glossary | Auto-extracts and defines medical terms |
-| 💊 4 Example Inputs | Discharge note, lab result, radiology, surgical note |
+| AI Translation | Powered by Claude Sonnet via Anthropic API |
+| Structured Output | JSON response with summary, key points, actions, glossary |
+| Query Log | localStorage-backed analytics log with SQL query display |
+| Readability Score | Shows grade-level improvement for each translation |
+| Glossary | Auto-extracts and defines medical terms |
+| 4 Example Inputs | Discharge note, lab result, radiology, surgical note |
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -66,7 +65,7 @@ npm run preview
 
 ---
 
-## 🏗 Project Structure
+## Project Structure
 
 ```
 clearrx/
@@ -94,7 +93,7 @@ clearrx/
 
 ---
 
-## 🧠 Design Decisions
+## Design Decisions
 
 **Why structured JSON output instead of a chat interface?**  
 Patients don't want a conversation. They want one clear, shareable answer. Structured output also enables the analytics layer — tracking which terms appear most, where comprehension drops, and what action items get surfaced most often.
@@ -107,7 +106,7 @@ Keeps the bundle small and shows CSS-in-JS competency. The entire UI is ~350 lin
 
 ---
 
-## 📊 The SQL Insight
+## The SQL Insight
 
 The Query Log tab shows simulated analytics over real session data:
 
@@ -127,7 +126,7 @@ ORDER BY date DESC;
 
 ---
 
-## 🔄 What I'd Change in v2
+## What I'd Change in v2
 
 1. **Reading-level selector** — Child / Adult / Elderly caregiver modes
 2. **EHR integration** — Embed in discharge flow so doctors preview simplified version before printing
@@ -137,16 +136,16 @@ ORDER BY date DESC;
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 ClearRx is for informational purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment. Always follow your healthcare provider's guidance.
 
 ---
 
-## 📄 License
+## License
 
 MIT — feel free to use, fork, and build on this.
 
 ---
 
-*Built by [Your Name] · [your-email@example.com] · [LinkedIn](https://linkedin.com/in/yourhandle)*
+*Built by Kulshreshth Chikara · shreshth0001@gmail.com · [LinkedIn](https://linkedin.com/in/yourhandle](https://www.linkedin.com/in/kulshreshth-chikara-6a8b4a282/)*
