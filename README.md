@@ -145,4 +145,4 @@ MIT — feel free to use, fork, and build on this.
 
 ---
 
-*Built by Kulshreshth Chikara · shreshth0001@gmail.com · [LinkedIn](https://linkedin.com/in/yourhandle](https://www.linkedin.com/in/kulshreshth-chikara-6a8b4a282/)*
+*Built by Kulshreshth Chikara · shreshth0001@gmail.com · [LinkedIn](https://www.linkedin.com/in/kulshreshth-chikara-6a8b4a282/)*
