@@ -1,0 +1,74 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #f0f4f8;
+  --surface: #ffffff;
+  --navy: #0a1628;
+  --green: #00c48c;
+  --green-light: #e8f9f3;
+  --green-border: #b0ead4;
+  --text: #1a2332;
+  --text-secondary: #445566;
+  --text-muted: #778899;
+  --border: #d0dce8;
+  --blue-light: #e8f0fe;
+  --blue-border: #c5d5f0;
+  --blue-text: #2255aa;
+  --error-bg: #fff0f0;
+  --error-border: #ffcccc;
+  --error-text: #cc3333;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Georgia', serif;
+  min-height: 100vh;
+}
+
+textarea:focus {
+  border-color: var(--green) !important;
+  box-shadow: 0 0 0 3px rgba(0, 196, 140, 0.15);
+}
+
+button:hover:not(:disabled) {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+button {
+  transition: all 0.15s ease;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.35s ease forwards;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
