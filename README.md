@@ -8,12 +8,10 @@
 
 ## What It Does
 
-Patients leave doctor appointments confused. Discharge summaries are written at a **Grade 16 reading level** — the average patient reads at **Grade 6**. ClearRx bridges that gap:
-
-- Paste any clinical text (discharge notes, lab results, radiology reports, prescriptions)
-- Get back: a plain-English summary, key points, action items, and a medical glossary
-- Every query is logged with metadata — readable as a SQL analytics table
-
+The Core Idea
+When a doctor writes "Patient presents with acute exacerbation of congestive heart failure with bilateral pleural effusions" — a normal person has no idea what that means.
+ClearRx takes that sentence and turns it into: "Your heart is having trouble pumping blood properly, which is causing fluid to build up around your lungs."
+That's it. That's the whole product.
 ---
 
 ## Features
