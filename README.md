@@ -7,11 +7,10 @@
 ---
 
 ## What It Does
-
-The Core Idea
 When a doctor writes "Patient presents with acute exacerbation of congestive heart failure with bilateral pleural effusions" — a normal person has no idea what that means.
 ClearRx takes that sentence and turns it into: "Your heart is having trouble pumping blood properly, which is causing fluid to build up around your lungs."
 That's it. That's the whole product.
+
 ---
 
 ## Features
